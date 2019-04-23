@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-functions-framework",
+  "version": "1.0.0",
+  "description": "A simple Node GCP Cloud Functions demonstration project",
+  "author": "Matthew Emes <matthew.emes@neudesic.com>",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GDGCloudOC/serverless-2019.git",
+    "directory": "nodejs-functions-framework"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "start": "ENV MESSAGE='Hello GDG from local runner' functions-framework --target=hellogdg"
+  },
+  "keywords": [
+    "Cloud Functions",
+    "GCP",
+    "serverless"
+  ],
+  "dependencies": {
+    "@google-cloud/functions-framework": "^1.1.0"
+  }
+}

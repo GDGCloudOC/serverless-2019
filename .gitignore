@@ -1,0 +1,7 @@
+# Foundations and Terraform
+.terraform
+terraform.tfstate*
+atum-terraform-credentials.json
+
+# NodeJS
+node_modules
